@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(151, 47, 68);
+}
+
+.cartao {
+    width: 260px;
+    height: 200px;
+}
+
+.cartao-imagem {
+    width: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(235, 138, 138);
+}
+
+main{
+    flex: 1;
+}
+
+.cabecalho-link {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+    font-size: 24px;
+}
+
+footer {
+    background-color: rgb(151, 47, 68);
+    padding: 15px 25px;
+    color:white;
+}
